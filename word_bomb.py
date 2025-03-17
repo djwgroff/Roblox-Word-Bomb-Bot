@@ -34,7 +34,7 @@ def add_word(words_file: str, word: str) -> bool:
     with open(words_file, "r+") as file:
         content = file.read()
         if word in content:
-            return False
+            return False # Word already in list
         file.seek(0, 0)
         file.write(word + "\n" + content)
         return True
@@ -42,11 +42,12 @@ def add_word(words_file: str, word: str) -> bool:
 def remove_word(words_file: str, word: str) -> bool:
     with open(words_file, "r+") as file:
         lines = file.readlines()
-        if word + "\n" not in lines:
-            return False
-        lines.remove(word + "\n")
-        file.seek(0, 0)
-        file.writelines(lines)
+        new_lines = [line for line in lines if line.strip() != word]
+        if len(lines) == len(new_lines):
+            return False # Word not found
+        file.seek(0)
+        file.writelines(new_lines)
+        file.truncate()
         return True
 
 def select_windows(window_titles: list[str], auto) -> (str):
