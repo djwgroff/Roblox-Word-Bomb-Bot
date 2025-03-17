@@ -1,3 +1,10 @@
+supercalifragilisticexpialidocious
+dichlorodiphenyltrichloroethane
+pseudopseudohypoparathyroidism
+sphenopalatineganglioneuralgia
+hexakosioihexekontahexaphobia
+antidisestablishmentarianism
+ethylenediaminetetraacetates
 abiogenetically
 aboriginalities
 absorbabilities
@@ -266332,6 +266339,7 @@ zupa
 zurf
 zyga
 zyme
+zzzs
 aah
 aal
 aas
@@ -267624,7 +267632,7 @@ zoo
 zos
 zuz
 zzz
-zzzsaa
+aa
 ab
 ad
 ae
@@ -267746,17 +267754,5 @@ ya
 ye
 yo
 yu
-za
-zo
-xu
-ya
-ye
-yo
-yu
-za
-zou
-za
-zo
-zou
 za
 zo
